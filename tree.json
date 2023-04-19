@@ -20,10 +20,29 @@
       "distance_measure": "div",
       "branch_label": "clade"
     },
+    "genome_annotations": {
+      "nuc": {
+        "end": 603,
+        "start": 1,
+        "strand": "+"
+      },
+      "25kD major envelope protein": {
+        "end": 603,
+        "seqid": "genemap.gff",
+        "start": 1,
+        "strand": "+",
+        "type": "gene"
+      }
+    },
     "colorings": [
       {
         "key": "clade_membership",
         "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
         "type": "categorical"
       }
     ],
@@ -31,178 +50,767 @@
       "clade_membership"
     ],
     "panels": [
-      "tree"
+      "tree",
+      "entropy"
     ]
   },
   "tree": {
     "name": "NODE_0000000",
     "node_attrs": {
+      "div": 0,
       "clade_membership": {
-        "value": "L5"
+        "value": "L1C"
       }
     },
-    "branch_attrs": {},
+    "branch_attrs": {
+      "mutations": {}
+    },
     "children": [
       {
-        "name": "NC_001961.1",
+        "name": "MN498293.1",
         "node_attrs": {
+          "div": 0.02550759,
           "clade_membership": {
-            "value": "L5"
+            "value": "L1C"
           }
         },
-        "branch_attrs": {}
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "G29T",
+              "T44C",
+              "G66A",
+              "A98G",
+              "T171C",
+              "A175G",
+              "C204T",
+              "T240C",
+              "T259C",
+              "C273T",
+              "T379C",
+              "C417T",
+              "A489G",
+              "C516T",
+              "C522T"
+            ],
+            "25kD major envelope protein": [
+              "C10F",
+              "L15P",
+              "N33S",
+              "K59E",
+              "F87L"
+            ]
+          },
+          "labels": {
+            "aa": "25kD major envelope protein: C10F, L15P, N33S, K59E, F87L"
+          }
+        }
       },
       {
-        "name": "PRRSV/swine/Iowa/34356/2023|IA|2023-04-07|L5",
+        "name": "PRRSV/swine/Iowa/34355/2023|IA|2023-04-07|L1C",
         "node_attrs": {
+          "div": 0.03943737,
           "clade_membership": {
-            "value": "L5"
+            "value": "L1C"
           }
         },
-        "branch_attrs": {}
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C30T",
+              "T68C",
+              "C77T",
+              "A101G",
+              "G138T",
+              "G168A",
+              "A174C",
+              "T201C",
+              "T228C",
+              "C277T",
+              "A280G",
+              "T281C",
+              "C293T",
+              "C339T",
+              "C342T",
+              "C349T",
+              "G370A",
+              "T435C",
+              "C450T",
+              "C472T",
+              "C480T",
+              "T501G"
+            ],
+            "25kD major envelope protein": [
+              "F23S",
+              "A26V",
+              "N34S",
+              "K58N",
+              "I94A",
+              "T98I",
+              "A124T",
+              "P158S"
+            ]
+          },
+          "labels": {
+            "aa": "25kD major envelope protein: F23S, A26V, N34S, K58N, I94A, T98I, A124T, P158S"
+          }
+        }
       },
       {
         "name": "NODE_0000001",
         "node_attrs": {
+          "div": 0.04000645,
           "clade_membership": {
-            "value": "L5"
+            "value": "L1A"
           }
         },
-        "branch_attrs": {},
-        "children": [
-          {
-            "name": "PRRSV/swine/Iowa/34769/2023|IA|2023-04-10|L5",
-            "node_attrs": {
-              "clade_membership": {
-                "value": "L5"
-              }
-            },
-            "branch_attrs": {}
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C183T",
+              "T225C",
+              "T234C",
+              "T246C",
+              "T252C",
+              "T261C",
+              "C291T",
+              "T333C",
+              "C371T",
+              "G381A",
+              "G382A",
+              "G384A",
+              "T429C",
+              "T441C",
+              "T444C",
+              "A453G",
+              "C462T",
+              "T504G",
+              "G510A",
+              "T517C",
+              "A519G",
+              "G573A",
+              "A600T"
+            ],
+            "25kD major envelope protein": [
+              "A124V",
+              "A128T",
+              "D168E"
+            ]
           },
+          "labels": {
+            "aa": "25kD major envelope protein: A124V, A128T, D168E"
+          }
+        },
+        "children": [
           {
             "name": "NODE_0000002",
             "node_attrs": {
+              "div": 0.05856753,
               "clade_membership": {
-                "value": "L1A"
+                "value": "L1Dbeta"
               }
             },
-            "branch_attrs": {},
-            "children": [
-              {
-                "name": "PRRSV/swine/Iowa/34355/2023|IA|2023-04-07|L1C",
-                "node_attrs": {
-                  "clade_membership": {
-                    "value": "L1C"
-                  }
-                },
-                "branch_attrs": {}
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G29A",
+                  "T144C",
+                  "A177G",
+                  "C207T",
+                  "C369T",
+                  "T390C",
+                  "C414T",
+                  "C459T",
+                  "G512A",
+                  "T513C"
+                ],
+                "25kD major envelope protein": [
+                  "C10Y",
+                  "G171D"
+                ]
               },
+              "labels": {
+                "aa": "25kD major envelope protein: C10Y, G171D"
+              }
+            },
+            "children": [
               {
                 "name": "NODE_0000003",
                 "node_attrs": {
+                  "div": 0.10102522,
                   "clade_membership": {
-                    "value": "L1A"
+                    "value": "L1Dbeta"
                   }
                 },
-                "branch_attrs": {},
-                "children": [
-                  {
-                    "name": "NODE_0000004",
-                    "node_attrs": {
-                      "clade_membership": {
-                        "value": "L1A"
-                      }
-                    },
-                    "branch_attrs": {},
-                    "children": [
-                      {
-                        "name": "PRRSV/swine/Iowa/34394/2023|IA|2023-04-07|L1A",
-                        "node_attrs": {
-                          "clade_membership": {
-                            "value": "L1A"
-                          }
-                        },
-                        "branch_attrs": {}
-                      },
-                      {
-                        "name": "PRRSV/swine/Iowa/34375/2023|IA|2023-04-07|L1A",
-                        "node_attrs": {
-                          "clade_membership": {
-                            "value": "L1A"
-                          }
-                        },
-                        "branch_attrs": {}
-                      }
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G51C",
+                      "A95C",
+                      "A98G",
+                      "C166T",
+                      "A172C",
+                      "T222C",
+                      "C246T",
+                      "T272C",
+                      "G279A",
+                      "T306C",
+                      "C309T",
+                      "A321G",
+                      "G344T",
+                      "C366T",
+                      "C393T",
+                      "G447A",
+                      "G453T",
+                      "A478G",
+                      "C480T",
+                      "A488G",
+                      "G490A",
+                      "G519A",
+                      "G565A",
+                      "A573G",
+                      "T600C"
+                    ],
+                    "25kD major envelope protein": [
+                      "L17F",
+                      "N32T",
+                      "N33S",
+                      "K58Q",
+                      "V91A",
+                      "C115F",
+                      "K151N",
+                      "I160V",
+                      "K163R",
+                      "G164R",
+                      "V189I"
                     ]
                   },
+                  "labels": {
+                    "aa": "25kD major envelope protein: L17F, N32T, N33S, K58Q, V91A, C115F, K151N, I160V, K163R, G164R, V189I"
+                  }
+                },
+                "children": [
                   {
-                    "name": "NODE_0000005",
+                    "name": "PRRSV/swine/Iowa/34914/2023|IA|2023-04-11|L1Dbeta",
                     "node_attrs": {
+                      "div": 0.1043722,
                       "clade_membership": {
                         "value": "L1Dbeta"
                       }
                     },
-                    "branch_attrs": {},
-                    "children": [
-                      {
-                        "name": "NODE_0000006",
-                        "node_attrs": {
-                          "clade_membership": {
-                            "value": "L1Dbeta"
-                          }
-                        },
-                        "branch_attrs": {},
-                        "children": [
-                          {
-                            "name": "PRRSV/swine/Iowa/34914/2023|IA|2023-04-11|L1Dbeta",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "L1Dbeta"
-                              }
-                            },
-                            "branch_attrs": {}
-                          },
-                          {
-                            "name": "PRRSV/swine/Iowa/34395/2023|IA|2023-04-07|L1Dbeta",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "L1Dbeta"
-                              }
-                            },
-                            "branch_attrs": {}
-                          }
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A39T",
+                          "T50C"
+                        ],
+                        "25kD major envelope protein": [
+                          "Q13H",
+                          "F17S"
                         ]
                       },
-                      {
-                        "name": "NODE_0000007",
-                        "node_attrs": {
-                          "clade_membership": {
-                            "value": "L1H"
-                          }
-                        },
-                        "branch_attrs": {},
-                        "children": [
-                          {
-                            "name": "PRRSV/swine/Iowa/34376/2023|IA|2023-04-07|L1H",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "L1H"
-                              }
-                            },
-                            "branch_attrs": {}
-                          },
-                          {
-                            "name": "PRRSV/swine/Illinois/34364/2023|IL|2023-04-07|L1H",
-                            "node_attrs": {
-                              "clade_membership": {
-                                "value": "L1H"
-                              }
-                            },
-                            "branch_attrs": {}
-                          }
-                        ]
+                      "labels": {
+                        "aa": "25kD major envelope protein: Q13H, F17S"
                       }
+                    }
+                  },
+                  {
+                    "name": "PRRSV/swine/Iowa/34395/2023|IA|2023-04-07|L1Dbeta",
+                    "node_attrs": {
+                      "div": 0.10768798,
+                      "clade_membership": {
+                        "value": "L1Dbeta"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G79A",
+                          "T83C",
+                          "A381G",
+                          "G523A"
+                        ],
+                        "25kD major envelope protein": [
+                          "A27T",
+                          "L28P",
+                          "D175N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: A27T, L28P, D175N"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.09854762,
+                  "clade_membership": {
+                    "value": "L1H"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G8T",
+                      "C30T",
+                      "C80T",
+                      "C133T",
+                      "G219A",
+                      "C276T",
+                      "G279T",
+                      "T281C",
+                      "C336T",
+                      "C339T",
+                      "T354C",
+                      "G360T",
+                      "A411T",
+                      "T435C",
+                      "G438C",
+                      "T495G",
+                      "A510G",
+                      "C561T",
+                      "T564A"
+                    ],
+                    "25kD major envelope protein": [
+                      "G3V",
+                      "A27V",
+                      "I94T",
+                      "L120F"
                     ]
+                  },
+                  "labels": {
+                    "aa": "25kD major envelope protein: G3V, A27V, I94T, L120F"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PRRSV/swine/Iowa/34376/2023|IA|2023-04-07|L1H",
+                    "node_attrs": {
+                      "div": 0.16898972,
+                      "clade_membership": {
+                        "value": "L1H"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C35T",
+                          "T44C",
+                          "A89G",
+                          "A95G",
+                          "A97G",
+                          "A98G",
+                          "T114C",
+                          "G120A",
+                          "G138A",
+                          "T171C",
+                          "A174T",
+                          "A176G",
+                          "A189G",
+                          "T213G",
+                          "C225T",
+                          "C237T",
+                          "T240C",
+                          "C249T",
+                          "C252T",
+                          "T264C",
+                          "G270A",
+                          "A280G",
+                          "C282G",
+                          "T291C",
+                          "A300G",
+                          "T303C",
+                          "T306C",
+                          "C309T",
+                          "A321C",
+                          "T358C",
+                          "T375C",
+                          "A384G",
+                          "A387G",
+                          "T432C",
+                          "T462C",
+                          "G492A",
+                          "T501C",
+                          "G511A",
+                          "A531G",
+                          "T546C",
+                          "A572G"
+                        ],
+                        "25kD major envelope protein": [
+                          "S12L",
+                          "L15P",
+                          "N30S",
+                          "N32S",
+                          "N33G",
+                          "K58N",
+                          "K59R",
+                          "T94A",
+                          "F120L",
+                          "D171N",
+                          "K191R"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: S12L, L15P, N30S, N32S, N33G, K58N, K59R, T94A, F120L, D171N, K191R"
+                      }
+                    }
+                  },
+                  {
+                    "name": "PRRSV/swine/Illinois/34364/2023|IL|2023-04-07|L1H",
+                    "node_attrs": {
+                      "div": 0.15545746,
+                      "clade_membership": {
+                        "value": "L1H"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A11G",
+                          "C77T",
+                          "T83C",
+                          "C84T",
+                          "G85A",
+                          "A94G",
+                          "C112A",
+                          "T114A",
+                          "T115C",
+                          "A159G",
+                          "T171A",
+                          "A172G",
+                          "A175C",
+                          "G177T",
+                          "G181A",
+                          "T213C",
+                          "C231T",
+                          "T235C",
+                          "C252A",
+                          "C255T",
+                          "T258C",
+                          "A300T",
+                          "T318C",
+                          "C342G",
+                          "C348T",
+                          "C366T",
+                          "C408T",
+                          "T423C",
+                          "C426T",
+                          "C444T",
+                          "A471G"
+                        ],
+                        "25kD major envelope protein": [
+                          "K4R",
+                          "A26V",
+                          "L28P",
+                          "V29I",
+                          "N32D",
+                          "H38K",
+                          "N57K",
+                          "K58E",
+                          "K59H",
+                          "D61N",
+                          "Y79H"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: K4R, A26V, L28P, V29I, N32D, H38K, N57K, K58E, K59H, D61N, Y79H"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 0.05623495,
+              "clade_membership": {
+                "value": "L1A"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G270A",
+                  "A321C",
+                  "T362C",
+                  "C474T",
+                  "T495C",
+                  "T507C",
+                  "G509A",
+                  "A574G"
+                ],
+                "25kD major envelope protein": [
+                  "I121T",
+                  "G170E",
+                  "I192V"
+                ]
+              },
+              "labels": {
+                "aa": "25kD major envelope protein: I121T, G170E, I192V"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 0.09352793000000001,
+                  "clade_membership": {
+                    "value": "L1A"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C77T",
+                      "A176C",
+                      "A177C",
+                      "A189G",
+                      "C204T",
+                      "T240C",
+                      "T285C",
+                      "C333T",
+                      "T345C",
+                      "T375C",
+                      "T379C",
+                      "C405T",
+                      "C408T",
+                      "A420G",
+                      "T423C",
+                      "C426T",
+                      "A471T",
+                      "G499A",
+                      "A531G"
+                    ],
+                    "25kD major envelope protein": [
+                      "A26V",
+                      "K59T",
+                      "V167I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "25kD major envelope protein: A26V, K59T, V167I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PRRSV/swine/Iowa/34394/2023|IA|2023-04-07|L1A",
+                    "node_attrs": {
+                      "div": 0.11699254,
+                      "clade_membership": {
+                        "value": "L1A"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G29T",
+                          "T44C",
+                          "A95G",
+                          "A173G",
+                          "T198C",
+                          "C207T",
+                          "G216A",
+                          "G219A",
+                          "C237T",
+                          "T281C",
+                          "G360C",
+                          "T421C",
+                          "A451G",
+                          "G555A"
+                        ],
+                        "25kD major envelope protein": [
+                          "C10F",
+                          "L15P",
+                          "N32S",
+                          "K58R",
+                          "I94T",
+                          "L120F",
+                          "Y141H",
+                          "K151E"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: C10F, L15P, N32S, K58R, I94T, L120F, Y141H, K151E"
+                      }
+                    }
+                  },
+                  {
+                    "name": "PRRSV/swine/Iowa/34375/2023|IA|2023-04-07|L1A",
+                    "node_attrs": {
+                      "div": 0.11662251000000001,
+                      "clade_membership": {
+                        "value": "L1A"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T59C",
+                          "G81A",
+                          "A101G",
+                          "T222A",
+                          "T272C",
+                          "A292G",
+                          "G370A",
+                          "C372T",
+                          "G447A",
+                          "C477A",
+                          "C480T",
+                          "T513C",
+                          "G519C"
+                        ],
+                        "25kD major envelope protein": [
+                          "I20T",
+                          "N34S",
+                          "V91A",
+                          "T98A",
+                          "V124I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: I20T, N34S, V91A, T98A, V124I"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.1411726,
+                  "clade_membership": {
+                    "value": "L5"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C30T",
+                      "T47C",
+                      "C80T",
+                      "A95G",
+                      "A100G",
+                      "T115C",
+                      "T121C",
+                      "T129C",
+                      "C133T",
+                      "A139C",
+                      "G168A",
+                      "A169G",
+                      "A170C",
+                      "A174C",
+                      "C197G",
+                      "T213C",
+                      "G216T",
+                      "C237T",
+                      "C249T",
+                      "G275C",
+                      "C276T",
+                      "C277T",
+                      "G279A",
+                      "A280G",
+                      "A300G",
+                      "A302T",
+                      "T304G",
+                      "A305T",
+                      "T322C",
+                      "G324A",
+                      "C339G",
+                      "A381T",
+                      "A382G",
+                      "A387G",
+                      "T409G",
+                      "A411G",
+                      "C414T",
+                      "C444T",
+                      "A452G",
+                      "G453A",
+                      "C459T",
+                      "A471G",
+                      "G490A",
+                      "C516T",
+                      "C554T",
+                      "G565A",
+                      "A572G"
+                    ],
+                    "25kD major envelope protein": [
+                      "F16S",
+                      "A27V",
+                      "N32S",
+                      "N34D",
+                      "I47L",
+                      "N57A",
+                      "K58N",
+                      "T66S",
+                      "G92A",
+                      "I94V",
+                      "Y101F",
+                      "Y102V",
+                      "L127F",
+                      "T128A",
+                      "S137A",
+                      "K151R",
+                      "G164R",
+                      "A185V",
+                      "V189I",
+                      "K191R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "25kD major envelope protein: F16S, A27V, N32S, N34D, I47L, N57A, K58N, T66S, G92A, I94V, Y101F, Y102V, L127F, T128A, S137A, K151R, G164R, A185V, V189I, K191R"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PRRSV/swine/Iowa/34769/2023|IA|2023-04-10|L5",
+                    "node_attrs": {
+                      "div": 0.14265713000000002,
+                      "clade_membership": {
+                        "value": "L5"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T86C"
+                        ],
+                        "25kD major envelope protein": [
+                          "V29A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: V29A"
+                      }
+                    }
+                  },
+                  {
+                    "name": "PRRSV/swine/Iowa/34356/2023|IA|2023-04-07|L5",
+                    "node_attrs": {
+                      "div": 0.14478896000000002,
+                      "clade_membership": {
+                        "value": "L5"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G8A",
+                          "A101G"
+                        ],
+                        "25kD major envelope protein": [
+                          "G3E",
+                          "D34G"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "25kD major envelope protein: G3E, D34G"
+                      }
+                    }
                   }
                 ]
               }
