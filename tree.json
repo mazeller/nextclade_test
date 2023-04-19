@@ -1,12 +1,12 @@
 {
   "version": "v2",
   "meta": {
-    "title": "Dummy nextclade reference tree",
-    "updated": "2023-01-01",
+    "title": "PRRSV nextclade reference tree",
+    "updated": "2023-04-18",
     "build_url": "https://github.com/neherlab/nextclade_dataset_template",
     "data_provenance": [
       {
-        "name": "fictional data"
+        "name": "PRRSV data"
       }
     ],
     "maintainers": [
@@ -25,11 +25,6 @@
         "key": "clade_membership",
         "title": "Clade",
         "type": "categorical"
-      },
-      {
-        "key": "gt",
-        "title": "Genotype",
-        "type": "categorical"
       }
     ],
     "filters": [
@@ -37,39 +32,184 @@
     ],
     "panels": [
       "tree"
-    ],
-    "extensions": {
-      "nextclade": {
-        "clade_node_attrs": [
-          {
-            "name": "G_clade",
-            "displayName": "G_clade (Goya et al)",
-            "description": "Clades based on the G gene and Goya et al, IRV, 2019.",
-            "hideInWeb": false
-          }
-        ]
-      }
-    }
+    ]
   },
   "tree": {
     "name": "NODE_0000000",
     "node_attrs": {
-      "div": 0,
       "clade_membership": {
-        "value": "unassigned"
-      },
-      "G_clade": {
-        "value": "GA3.0.0"
+        "value": "L5"
       }
     },
-    "branch_attrs": {
-      "mutations": {
-        "nuc": []
+    "branch_attrs": {},
+    "children": [
+      {
+        "name": "NC_001961.1",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "L5"
+          }
+        },
+        "branch_attrs": {}
       },
-      "labels": {
-        "clade": ""
+      {
+        "name": "PRRSV/swine/Iowa/34356/2023|IA|2023-04-07|L5",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "L5"
+          }
+        },
+        "branch_attrs": {}
+      },
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "L5"
+          }
+        },
+        "branch_attrs": {},
+        "children": [
+          {
+            "name": "PRRSV/swine/Iowa/34769/2023|IA|2023-04-10|L5",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "L5"
+              }
+            },
+            "branch_attrs": {}
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "L1A"
+              }
+            },
+            "branch_attrs": {},
+            "children": [
+              {
+                "name": "PRRSV/swine/Iowa/34355/2023|IA|2023-04-07|L1C",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "L1C"
+                  }
+                },
+                "branch_attrs": {}
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "L1A"
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "L1A"
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "PRRSV/swine/Iowa/34394/2023|IA|2023-04-07|L1A",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "L1A"
+                          }
+                        },
+                        "branch_attrs": {}
+                      },
+                      {
+                        "name": "PRRSV/swine/Iowa/34375/2023|IA|2023-04-07|L1A",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "L1A"
+                          }
+                        },
+                        "branch_attrs": {}
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "L1Dbeta"
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "L1Dbeta"
+                          }
+                        },
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "name": "PRRSV/swine/Iowa/34914/2023|IA|2023-04-11|L1Dbeta",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "L1Dbeta"
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "PRRSV/swine/Iowa/34395/2023|IA|2023-04-07|L1Dbeta",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "L1Dbeta"
+                              }
+                            },
+                            "branch_attrs": {}
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "L1H"
+                          }
+                        },
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "name": "PRRSV/swine/Iowa/34376/2023|IA|2023-04-07|L1H",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "L1H"
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "PRRSV/swine/Illinois/34364/2023|IL|2023-04-07|L1H",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "L1H"
+                              }
+                            },
+                            "branch_attrs": {}
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-    },
-    "children": []
+    ]
   }
 }
