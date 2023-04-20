@@ -1,6 +1,7 @@
 {
   "version": "v2",
   "meta": {
+    "title": "swIAV nextclade reference tree",
     "updated": "2023-04-20",
     "genome_annotations": {
       "nuc": {
@@ -15,6 +16,11 @@
         "strand": "+",
         "type": "gene"
       }
+    },
+	"display_defaults": {
+      "color_by": "clade_membership",
+      "distance_measure": "div",
+      "branch_label": "clade"
     },
     "colorings": [
       {
