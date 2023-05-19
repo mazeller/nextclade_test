@@ -21,5 +21,18 @@
     "tree": "tree.json",
     "virusPropertiesJson": "virus_properties.json"
   },
-  "metadata": {}
+  "metadata": {},
+  "attributes": {
+	"name": {
+	  "value": "PRRSV2 ORF5",
+	  "valueFriendly": "PRRSV ORF2 Dataset"
+	},
+	"reference": {
+	  "value": "MZ303980.1",
+	  "valueFriendly": "PRRSV2 from 03-JUL-2021"
+	},
+	"tag": {
+	  "value": "2023-05-02T00:00:00Z"
+	}
+  }
 }
