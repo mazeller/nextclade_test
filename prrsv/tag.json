@@ -28,11 +28,11 @@
 	  "valueFriendly": "PRRSV ORF2 Dataset"
 	},
 	"reference": {
-	  "value": "MZ303980.1",
-	  "valueFriendly": "PRRSV2 from 03-JUL-2021"
+	  "value": "AF535152.1",
+	  "valueFriendly": "PRRSV2 ORF5 rooted to VR2332"
 	},
 	"tag": {
-	  "value": "2023-05-02T00:00:00Z"
+	  "value": "2023-06-15T00:00:00Z"
 	}
   }
 }
