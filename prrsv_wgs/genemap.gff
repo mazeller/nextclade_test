@@ -1,1 +1,15 @@
-
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region EF536003.1 1 15182
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28344
+EF536003.1	Genbank	region	1	15182	.	+	.	ID=EF536003.1:1..15182;Dbxref=taxon:28344;gbkey=Src;genome=genomic;mol_type=genomic RNA;nat-host=Sus scrofa;old-name=Porcine respiratory and reproductive syndrome virus;serotype=North American;strain=VR2332
+EF536003.1	Genbank	CDS	20	7528	.	+	0	ID=cds-ABU87671.1;Dbxref=NCBI_GP:ABU87671.1;Name=ABU87671.1;Note=replicase%3B RNA-dependent RNA polymerase%3B ORF1ab%3B contains papain-like cysteine protease alpha and beta%2C cysteine protease%2C serine protease%2C zinc-finger protein%2C and helicase;exception=ribosomal slippage;gbkey=CDS;product=polyprotein;protein_id=ABU87671.1
+EF536003.1	Genbank	CDS	7528	11901	.	+	0	ID=cds-ABU87671.1;Dbxref=NCBI_GP:ABU87671.1;Name=ABU87671.1;Note=replicase%3B RNA-dependent RNA polymerase%3B ORF1ab%3B contains papain-like cysteine protease alpha and beta%2C cysteine protease%2C serine protease%2C zinc-finger protein%2C and helicase;exception=ribosomal slippage;gbkey=CDS;product=polyprotein;protein_id=ABU87671.1
+EF536003.1	Genbank	CDS	11903	12673	.	+	0	ID=cds-ABU87669.1;Dbxref=NCBI_GP:ABU87669.1;Name=ABU87669.1;gbkey=CDS;product=GP2a envelope protein;protein_id=ABU87669.1
+EF536003.1	Genbank	CDS	11908	12129	.	+	0	ID=cds-ABU87670.1;Dbxref=NCBI_GP:ABU87670.1;Name=ABU87670.1;gbkey=CDS;product=GP2b envelope protein;protein_id=ABU87670.1
+EF536003.1	Genbank	CDS	12526	13290	.	+	0	ID=cds-ABU87668.1;Dbxref=NCBI_GP:ABU87668.1;Name=ABU87668.1;gbkey=CDS;product=GP3 envelope protein;protein_id=ABU87668.1
+EF536003.1	Genbank	CDS	13071	13607	.	+	0	ID=cds-ABU87667.1;Dbxref=NCBI_GP:ABU87667.1;Name=ABU87667.1;gbkey=CDS;product=GP4 envelope protein;protein_id=ABU87667.1
+EF536003.1	Genbank	CDS	13618	14220	.	+	0	ID=cds-ABU87666.1;Dbxref=NCBI_GP:ABU87666.1;Name=ABU87666.1;gbkey=CDS;product=GP5 envelope protein;protein_id=ABU87666.1
+EF536003.1	Genbank	CDS	14205	14729	.	+	0	ID=cds-ABU87665.1;Dbxref=NCBI_GP:ABU87665.1;Name=ABU87665.1;gbkey=CDS;product=M matrix protein;protein_id=ABU87665.1
+EF536003.1	Genbank	CDS	14719	15090	.	+	0	ID=cds-ABU87664.1;Dbxref=NCBI_GP:ABU87664.1;Name=ABU87664.1;gbkey=CDS;product=N nucleocapsid protein;protein_id=ABU87664.1
