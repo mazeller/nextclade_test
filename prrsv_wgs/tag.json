@@ -21,18 +21,5 @@
     "tree": "tree.json",
     "virusPropertiesJson": "virus_properties.json"
   },
-  "metadata": {},
-  "attributes": {
-	"name": {
-	  "value": "PRRSV1+2, Whole Genome",
-	  "valueFriendly": "PRRSV Whole Genome Global Dataset"
-	},
-	"reference": {
-	  "value": "MN865507.1",
-	  "valueFriendly": "PRRSV2 from 31-AUG-2020"
-	},
-	"tag": {
-	  "value": "2023-05-04T00:00:00Z"
-	}
-  }
+  "metadata": {}
 }
