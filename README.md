@@ -17,6 +17,10 @@ The following are datasets meant to be used with NextClade for the purpose of ra
 ## Rotavirus A VP7
 
 [NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/rva_vp7)
+Curated datatset is missing some G-Types such as G18 and G21.
+
+Alternatively, for more robut classification, please refer to
+[BV-BRC](https://www.bv-brc.org/app/SubspeciesClassification)
 
 ## Rotavirus A VP4
 
