@@ -15,13 +15,13 @@
   },
   "snpClusters": {
     "enabled": false,
-    "windowSize": 500,
+    "windowSize": 100,
     "clusterCutOff": 50,
     "scoreWeight": 50
   },
   "mixedSites": {
     "enabled": true,
-    "mixedSitesThreshold": 8
+    "mixedSitesThreshold": 16
   },
   "frameShifts": {
     "enabled": true
