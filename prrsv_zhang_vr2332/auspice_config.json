@@ -12,7 +12,7 @@
     {
       "key": "year",
       "title": "Year",
-      "type": "continuous"
+      "type": "ordinal"
     },
     {
       "key": "clade_membership",
