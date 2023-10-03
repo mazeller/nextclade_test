@@ -24,9 +24,14 @@
       "title": "RFLP",
       "type": "categorical"
     },
-	{
+    {
       "key": "country",
       "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "state",
+      "title": "State",
       "type": "categorical"
     }
   ],
