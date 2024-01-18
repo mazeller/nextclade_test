@@ -1,0 +1,38 @@
+{
+  "tag": "2023-01-01T00:00:00Z",
+  "comment": "Nextclade dataset template",
+  "compatibility": {
+    "nextcladeCli": {
+      "min": "1.3.0",
+      "max": null
+    },
+    "nextcladeWeb": {
+      "min": "1.6.0",
+      "max": null
+    }
+  },
+  "enabled": true,
+  "files": {
+    "geneMap": "genemap.gff",
+    "primers": "primers.csv",
+    "qc": "qc.json",
+    "reference": "reference.fasta",
+    "sequences": "sequences.fasta",
+    "tree": "tree.json",
+    "virusPropertiesJson": "virus_properties.json"
+  },
+  "metadata": {},
+  "attributes": {
+	"name": {
+	  "value": "PRRSV2 ORF5 ZHANG 2023",
+	  "valueFriendly": "PRRSV-2 ORF5 Lineages, Yim-im & Zhang 2023 Microbiol Spectr"
+	},
+	"reference": {
+	  "value": "PRRSV0004437",
+	  "valueFriendly": "PRRSV2 ORF5 rooted to VR2332"
+	},
+	"tag": {
+	  "value": "2023-09-28T00:00:00Z"
+	}
+  }
+}
