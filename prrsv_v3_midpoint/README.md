@@ -1,7 +1,7 @@
 # Betaarterivirus suid 2 (PRRSV-22) based on reference PRRSV0004437 (VR2332 vaccine associated)
 
 
-## Dataset attributes1
+## Dataset attributes
 
 | attribute            | value                                    |
 | -------------------- | ---------------------------------------- |
