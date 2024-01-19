@@ -1,8 +1,8 @@
 {
   "attributes": {
-    "name": "UNKNOWN",
-    "refAccession": "UNKNOWN",
-    "refName": "UNKNOWN"
+    "name": "PRRSV-2 ORF5 Lineages, Yim-im & Zhang 2023 Microbiol Spectr",
+    "refAccession": "PRRSV0004437",
+    "refName": "PRRSV2 ORF5 VR2332"
   },
   "compatibility": {
     "cli": "3.0.0-alpha.0",
@@ -39,7 +39,7 @@
     },
     "privateMutations": {
       "cutoff": 25,
-      "enabled": false,
+      "enabled": true,
       "typical": 10,
       "weightLabeledSubstitutions": 2,
       "weightReversionSubstitutions": 1,
