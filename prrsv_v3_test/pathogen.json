@@ -1,8 +1,8 @@
 {
   "attributes": {
-    "name": "PRRSV-2 ORF5 Lineages, Yim-im & Zhang 2023 Microbiol Spectr",
-    "refAccession": "PRRSV0004437",
-    "refName": "PRRSV2 ORF5 VR2332"
+    "name": "UNKNOWN",
+    "refAccession": "UNKNOWN",
+    "refName": "UNKNOWN"
   },
   "compatibility": {
     "cli": "3.0.0-alpha.0",

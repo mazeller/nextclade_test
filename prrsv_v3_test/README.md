@@ -1,4 +1,4 @@
-# Nextclade dataset for "UNKNOWN" (..\..\..\NextClade_Datasets\prrsv_yimim_2023)
+# Nextclade dataset for "UNKNOWN" (../exp15_rebuild_scratch/)
 
 
 ## Dataset attributes
