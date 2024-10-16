@@ -1,0 +1,7 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region MF139075.1 1 702
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=85708
+MF139075.1	Genbank	region	1	702	.	+	.	ID=MF139075.1:1..702;Dbxref=taxon:85708;collection-date=1998;country=China;gbkey=Src;genome=genomic;genotype=PCV2a;isolate=HeN11/1998;mol_type=genomic DNA;nat-host=domestic pig
+MF139075.1	Genbank	CDS	1	702	.	+	0	Name=cap;gbkey=CDS;gene=cap;protein_id=ATJ01087.1;ID=cds-ATJ01087.1;product=capsid protein;Dbxref=NCBI_GP:ATJ01087.1
