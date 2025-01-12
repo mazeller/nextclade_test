@@ -17,6 +17,9 @@ The following are datasets meant to be used with NextClade for the purpose of ra
 ## PCV2 Test
 
 [NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/pcv2)
+## PCV2 Rerooted Test
+
+[NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/pcv2_reroot)
 
 ## PRRSV ORF5 (Yim-im & Zhang, 2023)
 
