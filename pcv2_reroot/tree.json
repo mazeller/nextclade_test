@@ -34,7 +34,7 @@
       {
         "key": "year",
         "title": "Year",
-        "type": "categorical",
+        "type": "ordinal",
         "scale": [
           [
             1980,
