@@ -2,6 +2,14 @@
 
 The following are datasets meant to be used with NextClade for the purpose of rapidly classifying common swine virus diseases. These datasets are not immediately intended to be definitive, and may not be kept up to date. There is no guarentee of accuracy.
 
+## PRRSV-1
+
+[NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/prrsv1)
+
+## PCV2
+
+[NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/pcv2_reroot)
+
 ## PRRSV ORF5 mid-point rooting attempt
 
 [NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/prrsv_v3_midpoint)
@@ -13,13 +21,6 @@ The following are datasets meant to be used with NextClade for the purpose of ra
 ## PRRSV ORF5 rooted to VR2332(Yim-im & Zhang, 2023)
 
 [NextClade](https://v2.clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/prrsv_zhang_vr2332)
-
-## PCV2 Test
-
-[NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/pcv2)
-## PCV2 Rerooted Test
-
-[NextClade](https://clades.nextstrain.org/?dataset-url=https://github.com/mazeller/nextclade_test/tree/main/pcv2_reroot)
 
 ## PRRSV ORF5 (Yim-im & Zhang, 2023)
 
