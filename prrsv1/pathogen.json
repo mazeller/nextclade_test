@@ -48,6 +48,6 @@
     "stopCodons": {
       "enabled": true,
       "scoreWeight": 50
-    },
+    }
   }
 }
