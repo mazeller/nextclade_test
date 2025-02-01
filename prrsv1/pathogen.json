@@ -15,7 +15,7 @@
     "penaltyGapOpenOutOfFrame": 14,
     "gapAlignmentSide": "left",
     "minSeedCover": 0.01,
-    "minLength": 1000
+    "minLength": 400
   },
   "attributes": {
     "name": "PRRSV-1",
@@ -39,7 +39,7 @@
     "mixedSites": {
       "enabled": true,
       "mixedSitesThreshold": 15,
-      "scoreWeight": 50
+      "scoreWeight": 80
     },
     "frameShifts": {
       "enabled": true,
