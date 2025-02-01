@@ -9,6 +9,14 @@
     "changelog": "CHANGELOG.md",
 	"treeJson": "tree.json"
   },
+  "alignmentParams": {
+    "penaltyGapOpen": 8,
+    "penaltyGapOpenInFrame": 12,
+    "penaltyGapOpenOutOfFrame": 14,
+    "gapAlignmentSide": "left",
+    "minSeedCover": 0.01,
+    "minLength": 1000
+  },
   "attributes": {
     "name": "PRRSV-1",
     "reference name": "Porcine reproductive and respiratory syndrome virus 1, ORF5 cds",
@@ -31,7 +39,7 @@
     "mixedSites": {
       "enabled": true,
       "mixedSitesThreshold": 15,
-      "scoreWeight": 50
+      "scoreWeight": 80
     },
     "frameShifts": {
       "enabled": true,
@@ -40,6 +48,6 @@
     "stopCodons": {
       "enabled": true,
       "scoreWeight": 50
-    }
+    },
   }
 }
