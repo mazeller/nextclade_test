@@ -39,7 +39,7 @@
     "mixedSites": {
       "enabled": true,
       "mixedSitesThreshold": 15,
-      "scoreWeight": 80
+      "scoreWeight": 50
     },
     "frameShifts": {
       "enabled": true,
