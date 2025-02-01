@@ -14,7 +14,7 @@
     "penaltyGapOpenInFrame": 12,
     "penaltyGapOpenOutOfFrame": 14,
     "gapAlignmentSide": "left",
-    "minSeedCover": 0.01,
+    "minSeedCover": 0.001,
     "minLength": 1000
   },
   "attributes": {
@@ -39,7 +39,7 @@
     "mixedSites": {
       "enabled": true,
       "mixedSitesThreshold": 15,
-      "scoreWeight": 50
+      "scoreWeight": 80
     },
     "frameShifts": {
       "enabled": true,
