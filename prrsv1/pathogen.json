@@ -1,18 +1,5 @@
 {
   "schemaVersion": "3.0.0",
-  "alignmentParams": {
-    "penaltyGapOpen": 8,
-    "penaltyGapOpenInFrame": 12,
-    "penaltyGapOpenOutOfFrame": 14,
-    "gapAlignmentSide": "left",
-    "minSeedCover": 0.01,
-    "minLength": 1000
-  },
-    "attributes": {
-    "name": "PRRSV-1",
-    "reference name": "Porcine reproductive and respiratory syndrome virus 1, ORF5 cds",
-    "reference accession": "M96262.2"
-  },
   "files": {
     "reference": "lelystad_orf5.fasta",
     "pathogenJson": "pathogen.json",
@@ -21,6 +8,11 @@
     "readme": "README.md",
     "changelog": "CHANGELOG.md",
 	"treeJson": "tree.json"
+  },
+  "attributes": {
+    "name": "PRRSV-1",
+    "reference name": "Porcine reproductive and respiratory syndrome virus 1, ORF5 cds",
+    "reference accession": "M96262.2"
   },
   "qc": {
     "schemaVersion": "1.2.0",
@@ -39,7 +31,7 @@
     "mixedSites": {
       "enabled": true,
       "mixedSitesThreshold": 15,
-      "scoreWeight": 80
+      "scoreWeight": 50
     },
     "frameShifts": {
       "enabled": true,
