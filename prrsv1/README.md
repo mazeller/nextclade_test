@@ -1,14 +1,14 @@
-# Betaarterivirus europensis 1 (PRRSV-1) based on reference M96262.2 (Lelystad associated)
+# Betaarterivirus europensis 1 (PRRSV-1) based on reference M96262.2 (Lelystad)
 
 
 ## Dataset attributes
 
 | attribute            | value                                    |
 | -------------------- | ---------------------------------------- |
-| name                 | PRRSV-2 ORF5 Lineages, Yim-im & Zhang 2023 Microbiol Spectr  |
+| name                 | PRRSV-1 ORF5 Lineages, Yim-im & Zhang 2025 Vet Microbiol  |
 | refName              | LEYPOLYENV                               |
 | refAccession         | M96262.2                                 |
-| refProtein		   | AAA46278.1                               |
+| refProtein		       | AAA46278.1                               |
 
 
 ## Scope of this dataset
